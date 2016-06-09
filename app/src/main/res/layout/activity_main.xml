@@ -31,10 +31,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/pitchView"
+        android:id="@+id/posView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:singleLine="true"
         android:textColor="@color/primary_text_default_material_light"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locate"
+        android:id="@+id/calibrateButton"
+        android:layout_below="@+id/chirpButton"
+        android:layout_alignEnd="@+id/chirpButton"
+        android:layout_alignStart="@+id/chirpButton"
+        android:nestedScrollingEnabled="true"
+        android:onClick="calibrate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sound:"
+        android:id="@+id/soundText"
+        android:layout_below="@+id/posView"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/timeText"
+        android:layout_below="@+id/soundText"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Echolocation.iml" filepath="$PROJECT_DIR$/Echolocation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TarsosDSP-Android-2.0/TarsosDSP-Android-2.0.iml" filepath="$PROJECT_DIR$/TarsosDSP-Android-2.0/TarsosDSP-Android-2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
     </modules>
   </component>
 </project>
